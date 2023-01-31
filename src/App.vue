@@ -63,6 +63,12 @@ body{
   background: var(--body-color);
 }
 
+#btn-back {
+  border: 0;
+  background-color: transparent;
+  margin-bottom: 2rem;
+}
+
 .title{
   font: 700 var(--title-font-size) var(--title-font);
   color: var(--title-color);
@@ -150,7 +156,9 @@ main{
 
 
 
-@media (min-width: 481px) {
+@media (min-width: 481px) {}
+
+@media (min-width: 769px) {
   .container{
     margin-left: 4rem;
     margin-right: 4rem;
