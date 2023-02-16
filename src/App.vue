@@ -1,5 +1,5 @@
 <template>
- <a href="#home" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>  
+ 
  <router-view/>
 </template>
 
@@ -18,6 +18,7 @@ ul{
 a{
   text-decoration: none;
 }
+
 
 img{
   width: 100%;
@@ -70,9 +71,13 @@ body{
 }
 
 .title{
-  font: 700 var(--title-font-size) var(--title-font);
+  font: 700 24px var(--title-font);
   color: var(--title-color);
   margin-bottom: 2rem;
+}
+
+p{
+  font-size: 14px;
 }
 
 .button{
@@ -117,7 +122,7 @@ body{
 }
 
 .section{
-  padding: calc(1rem + var(--header-height)) 0;
+  padding: calc( var(--header-height)) 0;
 }
 
 .section-home{
@@ -159,6 +164,15 @@ main{
 @media (min-width: 481px) {}
 
 @media (min-width: 769px) {
+  /*================= BASE ================================*/
+  .title {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
   .container{
     margin-left: 4rem;
     margin-right: 4rem;
@@ -167,10 +181,6 @@ main{
 }
 
 @media (min-width: 1200px) {
-  :root{
-    --title-font-size: 2.25rem;
-    --subtitle-font-size: 1.125rem;
-  }
 
   .container{
     max-width: 1120px;

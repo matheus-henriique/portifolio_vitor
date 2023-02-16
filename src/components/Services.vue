@@ -14,7 +14,7 @@
                 <p>Simulação volumétrica de um projeto produzido virtualmente, utilizando modelagem tridimensional (3D).</p>
             </router-link>
 
-            <router-link to="ArchitecturalDesign" class="card">
+            <router-link to="/ArchitecturalDesign" class="card">
                 <i class="icon-2">
                   <img src="../assets/icons/icon-desenho.png" alt="">
                 </i>
@@ -22,7 +22,7 @@
                 <p>Representação técnica de projeto.</p>
             </router-link>
 
-            <router-link to="AuthorProjects" class="card">
+            <router-link to="/AuthorProjects" class="card">
                 <i class="icon-3">
                   <img src="../assets/icons/icon-engenheiro.png" alt="">
                 </i>
@@ -54,7 +54,7 @@ export default {
 }
 
 .card{
-  padding: 3.625rem 2rem;
+  padding: 2rem 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-bottom: 0.25rem solid var(--base-color);
   border-radius: .25rem .25rem 0 0;
@@ -69,15 +69,14 @@ export default {
 
 .card i{
   display: block;
-  font-size: 5rem;
   color: var(--base-color);
 }
 
 .card .icon-1,
 .card .icon-2,
 .card .icon-3{
-  width: 7rem;
-  margin: auto;
+  width: 40%;
+  margin: 0 auto 1rem auto;
 }
 
 .card .title{
@@ -94,9 +93,9 @@ export default {
   }
 
   .card{
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 3.625rem 2rem;
   }
+
 }
 
 </style>

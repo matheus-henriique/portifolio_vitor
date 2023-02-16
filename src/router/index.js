@@ -21,7 +21,14 @@ const routes = [
     path: '/authorprojects',
     name: 'AuthorProjects',
     component: () => import('../views/AuthorProjects.vue')
-  }
+  },
+
+  // project path
+  {
+    path: '/projectvaranda',
+    name: 'ProjectVaranda',
+    component: () => import('../views/ViewsProjects/ProjectVaranda.vue')
+  },
 ]
 
 const router = createRouter({

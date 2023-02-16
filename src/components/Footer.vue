@@ -34,6 +34,7 @@ export default {
 <style scoped>
 
   footer {
+    margin-top: 2rem;
     background-color: var(--base-color);
   }
   footer .logo{

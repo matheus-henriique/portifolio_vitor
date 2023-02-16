@@ -20,7 +20,6 @@
         </div>
       </section>
 
-      <div class="divider-1"></div>
 </template>
 
 <script>

@@ -6,11 +6,13 @@
     </button>
     <div class="content">
 
-      <div class="card-project">
-        <div class="img">
-    
+      <!-- Project Varanda -->
+      <router-link to="/ProjectVaranda">
+        <div class="card-project">
+          <div class="img">
+          </div>
         </div>
-      </div>
+      </router-link>
 
       <div class="card-project">
         <div class="img">
@@ -26,12 +28,17 @@
 
     </div>
   </div>
-  
+  <Footer/>
 </template>
 
 <script>
+import Footer from '@/components/Footer.vue'
+
 export default {
   name: 'ArchitecturalDesign',
+  components: {
+    Footer
+  },
   data() {
     
   }
@@ -39,6 +46,9 @@ export default {
 </script>
 
 <style scoped>
+.container {
+  min-height: 100vh;
+}
 
 .content {
   display: grid;
@@ -61,6 +71,17 @@ export default {
   overflow: hidden;
   cursor: pointer;
   transition: .3s;
+  position: relative;
+}
+
+.card-project:before {
+  content: 'Ver projeto';
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  color: white;
+  padding-bottom: 2px;
+  border-bottom: solid 1px;
 }
 
 .img {
