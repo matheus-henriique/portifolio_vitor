@@ -1,62 +1,123 @@
 <template>
-    <div class="pagination">
-      <button v-if="currentPage > 1" @click="previousPage">Anterior</button>
-      <span v-if="totalPages > 1">{{ currentPage }} / {{ totalPages }} sdfgsfgsdf</span>
-      <button v-if="currentPage < totalPages" @click="nextPage">Próximo</button>
+    <div class="carousel">
+      <div class="carousel-controls">
+        <input id="1" type="radio" name="controls" checked />
+        <input id="2" type="radio" name="controls" />
+        <input id="3" type="radio" name="controls" />
+        <div class="dots">
+          <label for="1"></label>
+          <label for="2"></label>
+          <label for="3"></label>
+        </div>
+        <div class="carousel-images">
+          <img src="../assets/images/tests/1.jpg" />
+          <img src="../assets/images/tests/2.jpg" />
+          <img src="../assets/images/tests/3.jpg" />
+        </div>
+      </div>
     </div>
   </template>
   
   <script>
   export default {
-    name: 'thePagination',
-    data() {
-      return {
-        currentPage: 1,
-      };
-    },
-    props: {
-      totalPages: {
-        type: Number,
-        required: true,
-      },
-    },
-    methods: {
-      previousPage() {
-        if (this.currentPage > 1) {
-          this.currentPage--;
-          this.$emit('page-change', this.currentPage);
-        }
-      },
-      nextPage() {
-        if (this.currentPage < this.totalPages) {
-          this.currentPage++;
-          this.$emit('page-change', this.currentPage);
-        }
-      },
-    },
-  };
+    name: 'TheCarousel',
+  }
   </script>
   
   <style scoped>
   
-  .pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .pagination button,
-  .pagination span {
-    padding: 8px 16px;
-    font-size: 14px;
-    color: #333;
-    border: none;
-    background-color: transparent;
-  }
-  
-  .pagination button:hover {
-    cursor: pointer;
-  }
+  .carousel {
+  height: 100%;
+}
+
+.carousel {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.carousel-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  width: 300%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.carousel img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-controls {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+input {
+  display: none;
+}
+
+input,
+label {
+  position: relative;
+  z-index: 2;
+}
+
+label {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0.3;
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dots {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(transparent, #000 90%);
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+input:nth-child(1):checked ~ .dots label:nth-child(1),
+input:nth-child(2):checked ~ .dots label:nth-child(2),
+input:nth-child(3):checked ~ .dots label:nth-child(3) {
+  background: rgba(255, 255, 255, 0.95);
+  opacity: 1;
+  backdrop-filter: none;
+}
+
+input:nth-child(1):checked ~ .carousel-images {
+  translate: 0;
+}
+
+input:nth-child(2):checked ~ .carousel-images {
+  translate: -100vw;
+}
+
+input:nth-child(3):checked ~ .carousel-images {
+  translate: -200vw;
+}
   </style>
   
   

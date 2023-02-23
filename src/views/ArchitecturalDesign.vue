@@ -2,7 +2,7 @@
   <div class="container">
     <h1 class="title">Desenho Arquitetônico</h1>
     <button id="btn-back">
-      <a id="btn-back" href="/">voltar</a>
+      <a id="btn-back" href="/"><i class="fa-solid fa-arrow-left"></i></a>
     </button>
     <div class="content">
 
@@ -46,6 +46,13 @@ export default {
 </script>
 
 <style scoped>
+
+/* Icons */
+.fa-arrow-left {
+  font-size: 30px;
+  color: var(--base-color);
+}
+
 .container {
   min-height: 100vh;
 }

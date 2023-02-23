@@ -7,6 +7,8 @@ const routes = [
     name: 'page',
     component: PageView
   },
+
+  // ***** Projects path
   {
     path: '/electronicmodel',
     name: 'ElectronicModel',
@@ -23,7 +25,8 @@ const routes = [
     component: () => import('../views/AuthorProjects.vue')
   },
 
-  // project path
+
+  // ***** Project path
   {
     path: '/projectvaranda',
     name: 'ProjectVaranda',
