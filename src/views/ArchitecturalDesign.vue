@@ -1,8 +1,10 @@
 <template>
   <div class="container">
+    <a id="btn-back" href="/">
+      <i class="fa-solid fa-chevron-left"></i>
+    </a>
     <h1 class="title">Desenho Arquitetônico</h1>
     <button id="btn-back">
-      <a id="btn-back" href="/"><i class="fa-solid fa-arrow-left"></i></a>
     </button>
     <div class="content">
 
@@ -13,18 +15,6 @@
           </div>
         </div>
       </router-link>
-
-      <div class="card-project">
-        <div class="img">
-
-        </div>
-      </div>
-
-      <div class="card-project">
-        <div class="img">
-
-        </div>
-      </div>
 
     </div>
   </div>
@@ -48,9 +38,10 @@ export default {
 <style scoped>
 
 /* Icons */
-.fa-arrow-left {
-  font-size: 30px;
+.fa-chevron-left {
+  font-size: 18px;
   color: var(--base-color);
+  margin-top: 1.5rem;
 }
 
 .container {
@@ -67,8 +58,9 @@ export default {
 }
 
 .title {
-  text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  color: var(--base-color);
 }
 
 
@@ -79,6 +71,9 @@ export default {
   cursor: pointer;
   transition: .3s;
   position: relative;
+  -webkit-box-shadow: 9px 9px 25px -4px rgba(105,105,105,0.22);
+  -moz-box-shadow: 9px 9px 25px -4px rgba(105,105,105,0.22);
+  box-shadow: 9px 9px 25px -4px rgba(105,105,105,0.22);
 }
 
 .card-project:before {
@@ -106,6 +101,15 @@ export default {
 
 
 @media (min-width: 481px) {
+  .fa-chevron-left {
+    font-size: 24px;
+    margin-top: 2rem;
+  }
+
+
+  .title {
+    text-align: center;
+  }
   .content{
     grid-template-columns: 1fr 1fr;
   }
