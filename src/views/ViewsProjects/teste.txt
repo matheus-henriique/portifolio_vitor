@@ -1,0 +1,68 @@
+Maquete eletrônica
+
+APARTAMENTO HT.BANANAL, SÃO PAULO
+Arquitetos: Izoldi Arquitetura
+Desenhista: Vittor Izoldi
+Área:23,65m²
+Ano:2023
+=============
+
+CENTRO MÉDICO ALIANÇA. SÃO LUIS, MARANHÃO
+Arquitetos: Esley Roger
+Render: Vittor Izoldi
+Área:--m²
+Ano:2022
+=============
+
+CHALÉ. SERRA DA BOCAINA,SÃO PAULO
+Arquitetos: Alexandre Cobra arquitetura e construção
+Desenhista: Vittor Izoldi
+Área:--m²
+Ano:2022
+=============
+
+CLÍNICA ODONTOLÓGICA.BANANAL, SÃO PAULO
+Arquitetos: Alexandre Cobra arquitetura e construção
+Desenhista: Vittor Izoldi
+Área:--m²
+Ano:2022
+=============
+
+ESCRITÓRIO CONTAINER.BANANAL, SÃO PAULO
+Arquitetos: Alexandre Cobra arquitetura e construção
+Render: Vittor Izoldi
+Área:--m²
+Ano:2022
+=============
+
+HOTEL FC.BANANAL, SÃO PAULO
+Engenheiro: Francisco Cunha
+Desenhista: Vittor Izoldi
+Área:--m²
+Ano:2022
+=============
+
+ESTÚDIO DE MUSCULAÇÃO. BANANAL, SÃO PAULO
+Arquitetos: Izoldi Arquitetura
+Desenhista: Vittor Izoldi
+Área:
+Ano:2022
+=============
+
+RESIDÊNCIA NS.BANANAL, SÃO PAULO
+Arquitetos: Alexandre Cobra arquitetura e construção
+Render: Vittor Izoldi
+Área:--m²
+Ano:2022
+
+RESIDÊNCIA EG.BANANAL, SÃO PAULO
+Arquitetos: Alexandre Cobra arquitetura e construção
+Render: Vittor Izoldi
+Área:--m²
+Ano:2022
+
+SPA MÉDICO EDUCATIVO.SERRA DA BOCAINA, SÃO PAULO
+Arquitetos: Izoldi Arquitetura
+Desenhista: Vittor Izoldi
+Área:--m²
+Ano:2020

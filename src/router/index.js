@@ -32,6 +32,56 @@ const routes = [
     name: 'ProjectVaranda',
     component: () => import('../views/ViewsProjects/ProjectVaranda.vue')
   },
+  {
+    path: '/cozinharsb',
+    name: 'CozinhaRsB',
+    component: () => import('../views/ViewsProjects/CozinhaRsB.vue')
+  },
+  {
+    path: '/centromedico',
+    name: 'CentroMedico',
+    component: () => import('../views/ViewsProjects/CentroMedico.vue')
+  },
+  {
+    path: '/apartamentoht',
+    name: 'ApartamentoHt',
+    component: () => import('../views/ViewsProjects/ApartamentoHt.vue')
+  },
+  {
+    path: '/clinicaodontologica',
+    name: 'ClinicaOdontologica',
+    component: () => import('../views/ViewsProjects/ClinicaOdontologica.vue')
+  },
+  {
+    path: '/escritoriocontainer',
+    name: 'EscritorioContainer',
+    component: () => import('../views/ViewsProjects/EscritorioContainer.vue')
+  },
+  {
+    path: '/estudiomusculacao',
+    name: 'EstudioMusculacao',
+    component: () => import('../views/ViewsProjects/EstudioMusculacao.vue')
+  },
+  {
+    path: '/hotelfc',
+    name: 'HotelFc',
+    component: () => import('../views/ViewsProjects/HotelFc.vue')
+  },
+  {
+    path: '/residencians',
+    name: 'ResidenciaNs',
+    component: () => import('../views/ViewsProjects/ResidenciaNs.vue')
+  },
+  {
+    path: '/residenciaeg',
+    name: 'ResidenciaEg',
+    component: () => import('../views/ViewsProjects/ResidenciaEg.vue')
+  },
+  {
+    path: '/spamedico',
+    name: 'SpaMedico',
+    component: () => import('../views/ViewsProjects/SpaMedico.vue')
+  },
 ]
 
 const router = createRouter({
