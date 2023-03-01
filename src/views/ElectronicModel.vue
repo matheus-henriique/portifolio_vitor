@@ -105,14 +105,6 @@
         </div>
       </router-link>
 
-
-
-
-
-
-
-
-
     </div>
   </div>
   <Footer/>

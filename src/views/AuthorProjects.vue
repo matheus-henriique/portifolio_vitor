@@ -8,10 +8,43 @@
     </button>
     <div class="content">
 
-      <!-- Project Varanda -->
-      <router-link to="/ProjectVaranda">
+      <!-- Project Lanchonete -->
+      <router-link to="/ProjectLanchonete">
         <div class="card-project">
           <div class="img">
+            LANCHONETE. SERRA DA BOCAINA, SÃO PAULO
+          </div>
+        </div>
+      </router-link>
+
+      <router-link to="/SpaMedico">
+        <div class="card-project">
+          <div class="img">
+            SPA MÉDICO EDUCATIVO.SERRA DA BOCAINA, SÃO PAULO
+          </div>
+        </div>
+      </router-link>
+
+      <router-link to="/CozinhaRsB">
+        <div class="card-project">
+          <div class="img">
+            COZINHA RS.BANANAL,SÃO PAULO
+          </div>
+        </div>
+      </router-link>
+
+      <router-link to="/ApartamentoHt">
+        <div class="card-project">
+          <div class="img">
+            APARTAMENTO HT.BANANAL, SÃO PAULO
+          </div>
+        </div>
+      </router-link>
+
+      <router-link to="/EstudioMusculacao">
+        <div class="card-project">
+          <div class="img">
+            ESTÚDIO DE MUSCULAÇÃO. BANANAL, SÃO PAULO
           </div>
         </div>
       </router-link>

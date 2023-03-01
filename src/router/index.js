@@ -28,9 +28,9 @@ const routes = [
 
   // ***** Project path
   {
-    path: '/projectvaranda',
-    name: 'ProjectVaranda',
-    component: () => import('../views/ViewsProjects/ProjectVaranda.vue')
+    path: '/projectlanchonete',
+    name: 'ProjectLanchonete',
+    component: () => import('../views/ViewsProjects/ProjectLanchonete.vue')
   },
   {
     path: '/cozinharsb',
