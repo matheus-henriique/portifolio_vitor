@@ -35,8 +35,7 @@
 
       <router-link to="/ApartamentoHt">
         <div class="card-project">
-          <div class="img">
-            APARTAMENTO HT.BANANAL, SÃO PAULO
+          <div class="img-apartamentoht">
           </div>
         </div>
       </router-link>

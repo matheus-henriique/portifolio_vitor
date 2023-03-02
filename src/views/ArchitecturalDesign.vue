@@ -26,8 +26,7 @@
 
       <router-link to="/ApartamentoHt">
         <div class="card-project">
-          <div class="img">
-            APARTAMENTO HT.BANANAL, SÃO PAULO
+          <div class="img-apartamentoht">
           </div>
         </div>
       </router-link>
@@ -42,8 +41,7 @@
 
       <router-link to="/ClinicaOdontologica">
         <div class="card-project">
-          <div class="img">
-            CLÍNICA ODONTOLÓGICA.BANANAL, SÃO PAULO
+          <div class="img-clinica">
           </div>
         </div>
       </router-link>
@@ -124,14 +122,6 @@ export default {
   color: white;
   padding-bottom: 2px;
   border-bottom: solid 1px;
-}
-
-.img {
-  background-image: url("../assets/images/capa-lanchonete.jpg");
-  height: 200px;
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card-project:hover {
