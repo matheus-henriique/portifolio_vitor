@@ -8,7 +8,8 @@
       <div class="content">
   
         <div class="slider">
-          <swiper :navigation="true" :modules="modules" class="mySwiper">
+          <Projects/>
+          <!-- <swiper :navigation="true" :modules="modules" class="mySwiper">
             <swiper-slide>
               <img src="../../assets/images/tests/1.jpg" alt="">
             </swiper-slide>
@@ -18,7 +19,7 @@
             <swiper-slide>
               <img src="../../assets/images/tests/3.jpg" alt="">
             </swiper-slide>
-          </swiper>
+          </swiper> -->
         </div>
   
         <div class="details">
@@ -40,25 +41,27 @@
   
   <script>
     // Import Swiper Vue.js components
-    import { Swiper, SwiperSlide } from 'swiper/vue';
+    // import { Swiper, SwiperSlide } from 'swiper/vue';
   
     // Import Swiper styles
-    import 'swiper/css';
+    // import 'swiper/css';
   
-    import 'swiper/css/navigation';
+    // import 'swiper/css/navigation';
   
     // import required modules
-    import { Navigation } from 'swiper';
-  
+    // import { Navigation } from 'swiper';
+
+    import Projects from '@/components/Projects.vue'
     export default {
     name: 'ProjectVaranda',
       components: {
-        Swiper,
-        SwiperSlide,
+        Projects
+        // Swiper,
+        // SwiperSlide,
       },
       setup() {
         return {
-          modules: [Navigation],
+          // modules: [Navigation],
         };
       },
     };
