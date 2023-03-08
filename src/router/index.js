@@ -82,6 +82,11 @@ const routes = [
     name: 'SpaMedico',
     component: () => import('../views/ViewsProjects/SpaMedico.vue')
   },
+  {
+    path: '/chaleserrabocaina',
+    name: 'ChaleSerraBocaina',
+    component: () => import('../views/ViewsProjects/ChaleSerraBocaina.vue')
+  },
 ]
 
 const router = createRouter({

@@ -3,6 +3,28 @@
  <router-view/>
 </template>
 
+<script>
+
+export default {
+    name: 'App',
+    data() {
+        return {
+          teste: 'oiii',
+            projetos: [
+                {
+                    title: 'COZINHA RS.BANANAL,SÃO PAULO',
+                    image: 'https://i.imgur.com/5RrrtCN.jpg',
+                    Arquitetos: 'Izoldi Arquitetura',
+                    Desenhista: 'Vittor Izoldi',
+                    Área: '',
+                    Ano: '',
+                },
+            ]
+        }
+    }
+    };
+</script>
+
 <style>
 /*================= RESET ================================*/
 *{
@@ -214,7 +236,7 @@ main{
   }
 
   .img-clinica {
-    background-image: url("https://data.terabox.com/thumbnail/f0c6cd97577f9c7df5c9089859aa8393?fid=4402235858823-250528-184444876842878&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Ln6bMlImt1xi2biJ6oHO3qLLOpU%3d&expires=8h&chkbd=0&chkv=0&dp-logid=266015351235887711&dp-callid=0&time=1677787200&size=c1519_u858&quality=90&vuk=4402235858823&ft=image&autopolicy=1");
+    background-image: url("https://i.imgur.com/vnDPQNQ.jpg");
     height: 200px;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -222,7 +244,7 @@ main{
   }
 
   .img-chale {
-    background-image: url("https://data.terabox.com/thumbnail/80216b8a3191ac26091555947a78bbff?fid=4402235858823-250528-1091891302060268&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-nuPqwJn%2blXAwNrJJ3ZGRtbXPNtA%3d&expires=8h&chkbd=0&chkv=0&dp-logid=267316893905443029&dp-callid=0&time=1677790800&size=c1519_u858&quality=90&vuk=4402235858823&ft=image&autopolicy=1");
+    background-image: url("https://i.imgur.com/C6zG6jr.jpg");
     height: 200px;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -230,7 +252,7 @@ main{
   }
   
   .img-apartamentoht {
-    background-image: url("https://data.terabox.com/thumbnail/03c7ad9f80ce55a13c6c2326ee24e556?fid=4402235858823-250528-1024127873730336&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-maDNuQA9Kji%2fZv8DM1p%2fT9g1Ex0%3d&expires=8h&chkbd=0&chkv=0&dp-logid=267626032895039461&dp-callid=0&time=1677790800&size=c1519_u858&quality=90&vuk=4402235858823&ft=image&autopolicy=1");
+    background-image: url("https://i.imgur.com/bJDIh7O.jpg");
     height: 200px;
     background-position: bottom center;
     background-repeat: no-repeat;
