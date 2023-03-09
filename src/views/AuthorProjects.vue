@@ -16,21 +16,21 @@
         </div>
       </router-link>
 
-      <router-link to="/SpaMedico">
+      <!-- <router-link to="/SpaMedico">
         <div class="card-project">
           <div class="img">
             SPA MÉDICO EDUCATIVO.SERRA DA BOCAINA, SÃO PAULO
           </div>
         </div>
-      </router-link>
+      </router-link> -->
 
-      <router-link to="/CozinhaRsB">
+      <!-- <router-link to="/CozinhaRsB">
         <div class="card-project">
           <div class="img">
             COZINHA RS.BANANAL,SÃO PAULO
           </div>
         </div>
-      </router-link>
+      </router-link> -->
 
       <router-link to="/ApartamentoHt">
         <div class="card-project">
@@ -39,13 +39,13 @@
         </div>
       </router-link>
 
-      <router-link to="/EstudioMusculacao">
+      <!-- <router-link to="/EstudioMusculacao">
         <div class="card-project">
           <div class="img">
             ESTÚDIO DE MUSCULAÇÃO. BANANAL, SÃO PAULO
           </div>
         </div>
-      </router-link>
+      </router-link> -->
 
     </div>
   </div>

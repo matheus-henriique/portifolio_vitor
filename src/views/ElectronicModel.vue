@@ -8,13 +8,13 @@
     </button>
     <div class="content">
 
-      <router-link to="/CozinhaRsB">
+      <!-- <router-link to="/CozinhaRsB">
         <div class="card-project">
           <div class="img">
             COZINHA RS.BANANAL,SÃO PAULO
           </div>
         </div>
-      </router-link>
+      </router-link> -->
       
       <router-link to="/ApartamentoHt">
         <div class="card-project">
@@ -30,13 +30,13 @@
         </div>
       </router-link>
 
-      <router-link to="/CentroMedico">
+      <!-- <router-link to="/CentroMedico">
         <div class="card-project">
           <div class="img">
             CENTRO MÉDICO ALIANÇA. SÃO LUIS, MARANHÃO
           </div>
         </div>
-      </router-link>
+      </router-link> -->
       
       <router-link to="/ChaleSerraBocaina">
         <div class="card-project">
@@ -59,21 +59,21 @@
         </div>
       </router-link>
       
-      <router-link to="/HotelFc">
+      <!-- <router-link to="/HotelFc">
         <div class="card-project">
           <div class="img">
             HOTEL FC.BANANAL, SÃO PAULO
           </div>
         </div>
-      </router-link>
+      </router-link> -->
       
-      <router-link to="/EstudioMusculacao">
+      <!-- <router-link to="/EstudioMusculacao">
         <div class="card-project">
           <div class="img">
             ESTÚDIO DE MUSCULAÇÃO. BANANAL, SÃO PAULO
           </div>
         </div>
-      </router-link>
+      </router-link> -->
       
       <router-link to="/ResidenciaNs">
         <div class="card-project">
@@ -89,13 +89,13 @@
         </div>
       </router-link>
       
-      <router-link to="/SpaMedico">
+      <!-- <router-link to="/SpaMedico">
         <div class="card-project">
           <div class="img">
             SPA MÉDICO EDUCATIVO.SERRA DA BOCAINA, SÃO PAULO
           </div>
         </div>
-      </router-link>
+      </router-link> -->
 
     </div>
   </div>
