@@ -7,11 +7,18 @@
           </picture>
           <div class="text">
             <h2 class="title">Sobre mim</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis expedita dolorem consectetur repellat reprehenderit et reiciendis, alias libero quisquam nihil. Quas ex commodi voluptatum dolor unde atque quasi, explicabo iusto!</p>
+            <p>Vittor Izoldi nasceu em 20 de junho de 1998 no Rio de Janeiro. </p>
             <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis expedita dolorem consectetur repellat reprehenderit et reiciendis, alias libero quisquam nihil. Quas ex commodi voluptatum dolor unde atque quasi, explicabo iusto!</p>
+            <p>Graduado em Arquitetura e Urbanismo pelo UNASP (Centro Universitário Adventista de São paulo) em 2020.</p>
             <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis expedita dolorem consectetur repellat reprehenderit et reiciendis, alias libero quisquam nihil. Quas ex commodi voluptatum dolor unde atque quasi, explicabo iusto!</p>
+            <p>Iniciou sua atividade profissional ainda em 2020, estagiando no escritório de arquitetura: Maristela Correa, localizado em Engenheiro Coelho, São Paulo.</p>
+            <br>
+            <p>No período da pandemia da COVID 19 mudou-se para o interior de São Paulo e dedicou-se aos projetos autorais e trabalhos como freelancer para arquitetos e engenheiros.</p>
+            <br>
+            <p>Atualmente exerce a função de desenhista no escritório: Alexandre Cobra Arquitetura e Construção, localizado em Bananal-São Paulo. Onde auxilía no desenvolvimento de projetos, legalização e documentação de imóveis, elaboração de orçamentos, além da modelagem de maquetes eletrônicas (3D).</p>
+            <br>
+            <p>Possui conhecimento avançado em softwares para desenvolvimento e apresentação de projetos arquitetônicos, especificamente: Revit, AutoCad, Sketchup, Lumion, Photoshop , além do pacote Office.</p>
+
           </div>
         </div>
       </section>
