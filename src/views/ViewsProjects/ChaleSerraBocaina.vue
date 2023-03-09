@@ -64,8 +64,8 @@
           <div class="content-details">
             <h1 class="title-projects">CHALÉ. SERRA DA BOCAINA,SÃO PAULO</h1>
             <ul>
-              <li><i class="fa-solid fa-people-group icon"></i>Arquitetos: <spam class="destaque">EAlexandre Cobra arquitetura e construção</spam> </li>
-              <li><i class="fa-solid fa-user icon"></i>Desenhista: <spam class="destaque">Vitor Izoldi</spam> </li>
+              <li><i class="fa-solid fa-people-group icon"></i>Arquitetos: <spam class="destaque">Alexandre Cobra arquitetura e construção</spam> </li>
+              <li><i class="fa-solid fa-user icon"></i>Desenhista: <spam class="destaque">Vittor Izoldi</spam> </li>
               <li><i class="fa-solid fa-chart-area icon"></i>Area: <spam class="destaque">--m²</spam> </li>
               <li><i class="fa-regular fa-calendar-days icon"></i>Ano: <spam class="destaque">2022</spam> </li>
             </ul>
