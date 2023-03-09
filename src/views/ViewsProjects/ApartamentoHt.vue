@@ -65,7 +65,7 @@
           <div class="content-details">
             <h1 class="title-projects">APARTAMENTO HT.BANANAL, SÃO PAULO</h1>
             <ul>
-              <li><i class="fa-solid fa-people-group icon"></i>Arquitetos: <spam class="destaque">Esley Roger</spam> </li>
+              <li><i class="fa-solid fa-people-group icon"></i>Arquitetos: <spam class="destaque">Izoldi Arquitetura</spam> </li>
               <li><i class="fa-solid fa-user icon"></i>Desenhista: <spam class="destaque">Vitor Izoldi</spam> </li>
               <li><i class="fa-solid fa-chart-area icon"></i>Area: <spam class="destaque">23,65m²</spam> </li>
               <li><i class="fa-regular fa-calendar-days icon"></i>Ano: <spam class="destaque">2023</spam> </li>
