@@ -2,8 +2,8 @@
      <section class="section" id="about">
         <div class="container grid">
           <picture class="image">
-            <source media="(max-width:1200px)" srcset="../assets/images/perfil-vitor-teste.jpeg">
-            <img src="../assets/images/perfil-vitor.jpeg" alt="">
+            <source media="(max-width:1200px)" srcset="https://i.imgur.com/pOvEP1V.jpg">
+            <img src="https://i.imgur.com/VupyHlz.jpg" alt="">
           </picture>
           <div class="text">
             <h2 class="title">Sobre mim</h2>
