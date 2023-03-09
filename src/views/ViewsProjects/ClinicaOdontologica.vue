@@ -10,14 +10,64 @@
         <div class="slider">
           <swiper :navigation="true" :modules="modules" class="mySwiper">
             <swiper-slide>
-              <img src="https://data.terabox.com/thumbnail/f0c6cd97577f9c7df5c9089859aa8393?fid=4402235858823-250528-184444876842878&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Ln6bMlImt1xi2biJ6oHO3qLLOpU%3d&expires=8h&chkbd=0&chkv=0&dp-logid=266015351235887711&dp-callid=0&time=1677787200&size=c1519_u858&quality=90&vuk=4402235858823&ft=image&autopolicy=1" alt="">
+              <img src="https://i.imgur.com/vnDPQNQ.jpg" alt="">
             </swiper-slide>
             <swiper-slide>
-              
-              <img src="https://data.terabox.com/thumbnail/abe0d25e3j7ab8648969c6e241a8e4e1?fid=4402235858823-250528-214091166929072&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-A3tLDCFGb%2b2uHfCtqJR%2fX2xYeWs%3d&expires=8h&chkbd=0&chkv=0&dp-logid=265919025452006429&dp-callid=0&time=1677787200&size=c1519_u858&quality=90&vuk=4402235858823&ft=image&autopolicy=1" alt="">
+              <img src="https://i.imgur.com/cVIPXrw.jpg" alt="">
             </swiper-slide>
             <swiper-slide>
-              <img src="https://data.terabox.com/thumbnail/abe0d25e3j7ab8648969c6e241a8e4e1?fid=4402235858823-250528-214091166929072&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-A3tLDCFGb%2b2uHfCtqJR%2fX2xYeWs%3d&expires=8h&chkbd=0&chkv=0&dp-logid=265919025452006429&dp-callid=0&time=1677787200&size=c1519_u858&quality=90&vuk=4402235858823&ft=image&autopolicy=1" alt="">
+              <img src="https://i.imgur.com/iefqpgQ.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/3mEOuU4.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/h8wvGHw.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/GHfiCZw.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/Hp4Loi9.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/mmbE50k.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/rmrE4iR.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/BAhsB6c.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/N25WsBg.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/OWBN1le.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/CAyNGKw.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/vS2mXMY.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/GNm5fh0.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/683vqzO.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/XubH2tR.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/26rwXyM.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/d9M175G.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/AIQFe84.jpg" alt="">
             </swiper-slide>
           </swiper>
         </div>

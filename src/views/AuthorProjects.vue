@@ -11,8 +11,7 @@
       <!-- Project Lanchonete -->
       <router-link to="/ProjectLanchonete">
         <div class="card-project">
-          <div class="img">
-            LANCHONETE. SERRA DA BOCAINA, SÃO PAULO
+          <div class="img-lanchonete">
           </div>
         </div>
       </router-link>

@@ -10,37 +10,23 @@
         <div class="slider">
           <swiper :navigation="true" :modules="modules" class="mySwiper">
             <swiper-slide>
-              <img src="https://i.imgur.com/mTPag65.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>1
-              <img src="https://i.imgur.com/ADRn9yO.jpg" alt="">
+              <img src="https://i.imgur.com/URcDnjP.jpg" alt="">
             </swiper-slide>
             <swiper-slide>
-              <img src="https://i.imgur.com/W2hrupI.jpg" alt="">
+              <img src="https://i.imgur.com/q9hTJK3.jpg" alt="">
             </swiper-slide>
             <swiper-slide>
-              <img src="https://i.imgur.com/nCOc0le.jpg" alt="">
+              <img src="https://i.imgur.com/xCreQUg.jpg" alt="">
             </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/dBlxxfD.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/uSZqkFe.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/jgQ5EsY.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/tth6VWK.jpg" alt="">
-            </swiper-slide>
+
           </swiper>
         </div>
   
         <div class="details">
           <div class="content-details">
-            <h1 class="title-projects">RESIDÊNCIA NS.BANANAL, SÃO PAULO</h1>
+            <h1 class="title-projects">CHALÉ. SERRA DA BOCAINA,SÃO PAULO</h1>
             <ul>
-              <li><i class="fa-solid fa-people-group icon"></i>Arquitetos: <spam class="destaque">Alexandre Cobra arquitetura e construção</spam> </li>
+              <li><i class="fa-solid fa-people-group icon"></i>Arquitetos: <spam class="destaque">EAlexandre Cobra arquitetura e construção</spam> </li>
               <li><i class="fa-solid fa-user icon"></i>Desenhista: <spam class="destaque">Vitor Izoldi</spam> </li>
               <li><i class="fa-solid fa-chart-area icon"></i>Area: <spam class="destaque">--m²</spam> </li>
               <li><i class="fa-regular fa-calendar-days icon"></i>Ano: <spam class="destaque">2022</spam> </li>
@@ -66,7 +52,7 @@
     import { Navigation } from 'swiper';
   
     export default {
-    name: 'ProjectVaranda',
+    name: 'ResidenciaAgPatrimonio',
       components: {
         Swiper,
         SwiperSlide,
@@ -80,4 +66,3 @@
   
   
   </script>
-  

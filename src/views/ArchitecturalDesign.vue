@@ -33,8 +33,7 @@
 
       <router-link to="/ChaleSerraBocaina">
         <div class="card-project">
-          <div class="img">
-            CHALÉ. SERRA DA BOCAINA,SÃO PAULO
+          <div class="img-chale">
           </div>
         </div>
       </router-link>

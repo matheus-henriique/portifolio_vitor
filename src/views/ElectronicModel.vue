@@ -8,7 +8,6 @@
     </button>
     <div class="content">
 
-      <!-- Project Varanda -->
       <router-link to="/CozinhaRsB">
         <div class="card-project">
           <div class="img">
@@ -17,14 +16,6 @@
         </div>
       </router-link>
       
-      <!-- <router-link to="/ProjectVaranda">
-        <div class="card-project">
-          <div class="img">
-            LANCHONETE•BANANAL, SÃO PAULO
-          </div>
-        </div>
-      </router-link> -->
-      
       <router-link to="/ApartamentoHt">
         <div class="card-project">
           <div class="img-apartamentoht">
@@ -32,6 +23,13 @@
         </div>
       </router-link>
       
+      <router-link to="/ResidenciaAgPatrimonio">
+        <div class="card-project">
+          <div class="img-residenciaAgPatrimonio">
+          </div>
+        </div>
+      </router-link>
+
       <router-link to="/CentroMedico">
         <div class="card-project">
           <div class="img">
@@ -56,8 +54,7 @@
       
       <router-link to="/EscritorioContainer">
         <div class="card-project">
-          <div class="img">
-            ESCRITÓRIO CONTAINER.BANANAL, SÃO PAULO
+          <div class="img-container">
           </div>
         </div>
       </router-link>
@@ -80,16 +77,14 @@
       
       <router-link to="/ResidenciaNs">
         <div class="card-project">
-          <div class="img">
-            RESIDÊNCIA NS.BANANAL, SÃO PAULO
+          <div class="img-residencia-ns">
           </div>
         </div>
       </router-link>
       
       <router-link to="/ResidenciaEg">
         <div class="card-project">
-          <div class="img">
-            RESIDÊNCIA EG.BANANAL, SÃO PAULO
+          <div class="img-residencia-eg">
           </div>
         </div>
       </router-link>

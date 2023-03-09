@@ -87,6 +87,11 @@ const routes = [
     name: 'ChaleSerraBocaina',
     component: () => import('../views/ViewsProjects/ChaleSerraBocaina.vue')
   },
+  {
+    path: '/residenciaagpatrimonio',
+    name: 'ResidenciaAgPatrimonio',
+    component: () => import('../views/ViewsProjects/ResidenciaAgPatrimonio.vue')
+  },
 ]
 
 const router = createRouter({

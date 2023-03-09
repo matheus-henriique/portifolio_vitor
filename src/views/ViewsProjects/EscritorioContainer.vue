@@ -1,7 +1,7 @@
 <template>
     <div class="box-project">
   
-      <a href="/architecturaldesign">
+      <a href="/ElectronicModel">
         <i class="fa-solid fa-arrow-left"></i>
       </a>
   
@@ -10,13 +10,43 @@
         <div class="slider">
           <swiper :navigation="true" :modules="modules" class="mySwiper">
             <swiper-slide>
-              <img src="../../assets/images/tests/1.jpg" alt="">
+              <img src="https://i.imgur.com/pD2o9kS.jpg" alt="">
             </swiper-slide>
             <swiper-slide>1
-              <img src="../../assets/images/tests/2.jpg" alt="">
+              <img src="https://i.imgur.com/Csn4SjN.jpg" alt="">
             </swiper-slide>
             <swiper-slide>
-              <img src="../../assets/images/tests/3.jpg" alt="">
+              <img src="https://i.imgur.com/zpN0qvw.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/CSnFArO.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/Hb0DXgY.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/P821qja.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/VTz5XjK.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/6ddtYiP.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/016u0fl.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/Wja1ReZ.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/uiqIKZz.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/92cnrVL.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/Wg3v1cX.jpg" alt="">
             </swiper-slide>
           </swiper>
         </div>

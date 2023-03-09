@@ -1,7 +1,7 @@
 <template>
   <div class="box-project">
 
-    <a href="/architecturaldesign">
+    <a href="/ElectronicModel">
       <i class="fa-solid fa-arrow-left"></i>
     </a>
 
@@ -10,13 +10,40 @@
       <div class="slider">
         <swiper :navigation="true" :modules="modules" class="mySwiper">
           <swiper-slide>
-            <img src="../../assets/images/tests/1.jpg" alt="">
+            <img src="https://i.imgur.com/NXDi3Oc.jpg" alt="">
           </swiper-slide>
           <swiper-slide>
-            <img src="../../assets/images/tests/2.jpg" alt="">
+            <img src="https://i.imgur.com/ky7YnyS.jpg" alt="">
           </swiper-slide>
           <swiper-slide>
-            <img src="../../assets/images/tests/3.jpg" alt="">
+            <img src="https://i.imgur.com/Y39pHcd.jpg" alt="">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://i.imgur.com/zviRwdn.jpg" alt="">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://i.imgur.com/HFkrVNE.jpg" alt="">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://i.imgur.com/ODfbGMk.jpg" alt="">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://i.imgur.com/J6Ei8M0.jpg" alt="">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://i.imgur.com/o7V0ysw.jpg" alt="">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://i.imgur.com/h57aqIV.jpg" alt="">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://i.imgur.com/evrjYBz.jpg" alt="">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://i.imgur.com/e3PJfpD.jpg" alt="">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://i.imgur.com/PJqQ6v3.jpg" alt="">
           </swiper-slide>
         </swiper>
       </div>

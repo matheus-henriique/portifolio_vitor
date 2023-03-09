@@ -234,6 +234,22 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
   }
+  
+  .img-residenciaAgPatrimonio {
+    background-image: url("https://i.imgur.com/URcDnjP.jpg");
+    height: 200px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-lanchonete {
+    background-image: url("https://i.imgur.com/NXDi3Oc.jpg");
+    height: 200px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   .img-clinica {
     background-image: url("https://i.imgur.com/vnDPQNQ.jpg");
@@ -258,6 +274,40 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
   }
+  
+  .img-container {
+    background-image: url("https://i.imgur.com/pD2o9kS.jpg");
+    height: 200px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .img-residencia-ns {
+    background-image: url("https://i.imgur.com/mTPag65.jpg");
+    height: 200px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .img-residencia-eg {
+    background-image: url("https://i.imgur.com/8ym42oP.jpg");
+    height: 200px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-centro-medico {
+    background-image: url("https://i.imgur.com/bJDIh7O.jpg");
+    height: 200px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
   /* ***** Content ***** */
   .box-project {
     height: 100vh;
