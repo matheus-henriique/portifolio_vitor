@@ -10,6 +10,16 @@
         <div class="slider">
           <swiper :navigation="true" :modules="modules" class="mySwiper">
             <swiper-slide>
+              <img class="teste" src="https://i.imgur.com/XwtOhUK.jpg" alt="">
+            </swiper-slide>
+
+            <swiper-slide>
+              <img src="https://i.imgur.com/tlSE4PU.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="https://i.imgur.com/XzM2sK8.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
               <img src="https://i.imgur.com/bJDIh7O.jpg" alt="">
             </swiper-slide>
             <swiper-slide>
@@ -46,16 +56,6 @@
               <img src="https://i.imgur.com/f4oiDtu.jpg" alt="">
             </swiper-slide>
 
-            <swiper-slide>
-              <img class="teste" src="https://i.imgur.com/XwtOhUK.jpg" alt="">
-            </swiper-slide>
-
-            <swiper-slide>
-              <img src="https://i.imgur.com/tlSE4PU.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/XzM2sK8.jpg" alt="">
-            </swiper-slide>
             
            
           </swiper>
@@ -110,7 +110,7 @@
 
   .teste {
     object-fit: contain;
-    
+    transform: rotate(90deg);
   }
  </style>
   

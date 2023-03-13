@@ -92,6 +92,15 @@ const routes = [
     name: 'ResidenciaAgPatrimonio',
     component: () => import('../views/ViewsProjects/ResidenciaAgPatrimonio.vue')
   },
+
+    // ***** Zoom Project path
+
+  //CHALÉ
+  {
+    path: '/zoomchale',
+    name: 'ZoomChale',
+    component: () => import('../components/ZoomImage/ZoomChale.vue')
+  },
 ]
 
 const router = createRouter({
