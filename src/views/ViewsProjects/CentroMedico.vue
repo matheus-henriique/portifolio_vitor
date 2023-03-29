@@ -8,17 +8,19 @@
       <div class="content">
   
         <div class="slider">
-          <swiper :navigation="true" :modules="modules" class="mySwiper">
-            <swiper-slide>
-              <img src="../../assets/images/tests/1.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>1
-              <img src="../../assets/images/tests/2.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="../../assets/images/tests/3.jpg" alt="">
-            </swiper-slide>
-          </swiper>
+          <a href="/ZoomCentroMedico">
+            <swiper :navigation="true" :modules="modules" class="mySwiper">
+              <swiper-slide>
+                <img src="../../assets/images/tests/1.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>1
+                <img src="../../assets/images/tests/2.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="../../assets/images/tests/3.jpg" alt="">
+              </swiper-slide>
+            </swiper>
+          </a>
         </div>
   
         <div class="details">

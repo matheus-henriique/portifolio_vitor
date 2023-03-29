@@ -7,21 +7,6 @@
 
 export default {
     name: 'App',
-    data() {
-        return {
-          teste: 'oiii',
-            projetos: [
-                {
-                    title: 'COZINHA RS.BANANAL,SÃO PAULO',
-                    image: 'https://i.imgur.com/5RrrtCN.jpg',
-                    Arquitetos: 'Izoldi Arquitetura',
-                    Desenhista: 'Vittor Izoldi',
-                    Área: '',
-                    Ano: '',
-                },
-            ]
-        }
-    }
     };
 </script>
 

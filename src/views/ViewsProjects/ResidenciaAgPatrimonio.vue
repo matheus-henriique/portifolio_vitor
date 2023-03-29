@@ -8,18 +8,19 @@
       <div class="content">
   
         <div class="slider">
-          <swiper :navigation="true" :modules="modules" class="mySwiper">
-            <swiper-slide>
-              <img src="https://i.imgur.com/URcDnjP.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/q9hTJK3.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/xCreQUg.jpg" alt="">
-            </swiper-slide>
-
-          </swiper>
+          <a href="/ZoomPatrimonio">
+            <swiper :navigation="true" :modules="modules" class="mySwiper">
+              <swiper-slide>
+                <img src="https://i.imgur.com/URcDnjP.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/q9hTJK3.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/xCreQUg.jpg" alt="">
+              </swiper-slide>
+            </swiper>
+          </a>
         </div>
   
         <div class="details">

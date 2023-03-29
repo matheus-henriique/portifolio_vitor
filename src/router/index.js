@@ -101,6 +101,26 @@ const routes = [
     name: 'ZoomChale',
     component: () => import('../components/ZoomImage/ZoomChale.vue')
   },
+  {
+    path: '/zoomapht',
+    name: 'ZoomApHt',
+    component: () => import('../components/ZoomImage/ZoomApHt.vue')
+  },
+  {
+    path: '/zoomcentromedico',
+    name: 'ZoomCentroMedico',
+    component: () => import('../components/ZoomImage/ZoomCentroMedico.vue')
+  },
+  {
+    path: '/zoompatrimonio',
+    name: 'ZoomPatrimonio',
+    component: () => import('../components/ZoomImage/ZoomPatrimonio.vue')
+  },
+  {
+    path: '/zoomclinicaodonto',
+    name: 'ZoomClinicaOdonto',
+    component: () => import('../components/ZoomImage/ZoomClinicaOdonto.vue')
+  },
 ]
 
 const router = createRouter({

@@ -1,54 +1,15 @@
 <template>
     <div id="teste">
-        <a href="/ChaleSerraBocaina" class="back">voltar</a>
+        <a href="/ResidenciaAgPatrimonio" class="back">voltar</a>
         <swiper :navigation="true" :modules="modules" class="mySwiper">
-          <swiper-slide>
-                <img src="https://i.imgur.com/C6zG6jr.jpg" alt="">
+            <swiper-slide>
+                <img src="https://i.imgur.com/URcDnjP.jpg" alt="">
               </swiper-slide>
               <swiper-slide>
-               <img src="https://i.imgur.com/BEOA99C.jpg" alt="">
+                <img src="https://i.imgur.com/q9hTJK3.jpg" alt="">
               </swiper-slide>
               <swiper-slide>
-                <img src="https://i.imgur.com/RPRpIL7.jpg" alt="">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="https://i.imgur.com/R2opmlj.jpg" alt="">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="https://i.imgur.com/Xxu2XQU.jpg" alt="">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="https://i.imgur.com/M2X0tTi.jpg" alt="">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="https://i.imgur.com/GwwSO5T.jpg" alt="">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="https://i.imgur.com/9kwpMeU.jpg" alt="">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="https://i.imgur.com/GAtbBQ0.jpg" alt="">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="https://i.imgur.com/dflJjZ8.jpg" alt="">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="https://i.imgur.com/yB67Hux.jpg" alt="">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="https://i.imgur.com/xQTl142.jpg" alt="">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="https://i.imgur.com/gZqA3as.jpg" alt="">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="https://i.imgur.com/yiUuHNj.jpg" alt="">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="https://i.imgur.com/blug1g0.jpg" alt="">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="https://i.imgur.com/XXov9PU.jpg" alt="">
+                <img src="https://i.imgur.com/xCreQUg.jpg" alt="">
               </swiper-slide>
         </swiper>
     </div>
@@ -66,7 +27,7 @@
     import { Navigation } from 'swiper';
   
     export default {
-        name: 'ZoomChale',
+        name: 'ZoomPatrimonio',
       components: {
         Swiper,
         SwiperSlide,

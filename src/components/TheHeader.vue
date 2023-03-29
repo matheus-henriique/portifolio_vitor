@@ -2,8 +2,11 @@
     <header id="header">
       <nav class="container">
 
-          <div class="logo">
-            <img src="../assets/logo.png" alt="">
+          <div class="box">
+            <div class="logo">
+              <img src="../assets/logo.png" alt="">
+            </div>
+            <p>Portifólio</p>
           </div>
 
           <ul :class="[ { 'active': show } ]">
@@ -52,6 +55,14 @@ export default {
 </script>
 
 <style scoped>
+.box {
+  width: 300px;
+}
+.box p {
+  display: none;
+  color: white;
+  font-size: 1rem;
+}
 /*================= HEADER ================================*/
 #header{
   border-bottom: 1px solid #e4e4e4;
@@ -77,6 +88,7 @@ nav {
 
 nav .logo {
   width: 15%;
+
 }
 
 nav ul {
@@ -171,6 +183,19 @@ nav ul i.active {
 
 
 /* desktop */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+  .box p {
+    display: block;
+    color: white;
+    font-size: 2rem;
+}
+}
 
 </style>

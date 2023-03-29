@@ -8,57 +8,55 @@
       <div class="content">
   
         <div class="slider">
-          <swiper :navigation="true" :modules="modules" class="mySwiper">
-            <swiper-slide>
-              <img class="teste" src="https://i.imgur.com/XwtOhUK.jpg" alt="">
-            </swiper-slide>
-
-            <swiper-slide>
-              <img src="https://i.imgur.com/tlSE4PU.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/XzM2sK8.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/bJDIh7O.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/BtQQWe9.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/6bezEi7.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/W21z0D0.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/pmgK6p3.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/xC5InbJ.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/p4DB8SZ.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/320Rvoi.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/LOBZsfj.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/jq4qljV.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/SQ4ITfN.jpg" alt="">
-            </swiper-slide>
-            <swiper-slide>
-              <img src="https://i.imgur.com/f4oiDtu.jpg" alt="">
-            </swiper-slide>
-
-            
-           
-          </swiper>
+          <a href="/ZoomApHt">
+            <swiper :navigation="true" :modules="modules" class="mySwiper">
+              <swiper-slide>
+                <img class="teste" src="https://i.imgur.com/XwtOhUK.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/tlSE4PU.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/XzM2sK8.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/bJDIh7O.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/BtQQWe9.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/6bezEi7.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/W21z0D0.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/pmgK6p3.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/xC5InbJ.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/p4DB8SZ.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/320Rvoi.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/LOBZsfj.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/jq4qljV.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/SQ4ITfN.jpg" alt="">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="https://i.imgur.com/f4oiDtu.jpg" alt="">
+              </swiper-slide>
+            </swiper>
+          </a>
         </div>
   
         <div class="details">
